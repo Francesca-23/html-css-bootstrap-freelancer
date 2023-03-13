@@ -1,0 +1,71 @@
+
+ul li{
+    list-style-type: none;
+}
+
+a{
+   text-decoration: none;
+   color: white;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+
+header{
+    height: 70px;
+    background-color: #2c3e50;
+    color: white;
+}
+
+
+/* Main */
+
+/* Section-1 */
+
+.small-bar{
+    height: 3px;
+    width: 3rem;
+    border-radius: 2px;
+}
+
+.start-bootstrap{
+    background-color: #1abc9c;
+}
+
+/* Section-2 */
+
+.portfolio{
+    color: #2c3e50;
+}
+
+.grey-bar{
+    background-color: #2c3e50;
+}
+
+/* Section-3 */
+
+.about{
+    background-color: #1abc9c; 
+}
+
+
+/* Media query */
+
+@media screen and (min-width: 768px) {
+
+    .cards-container{
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .cards-container{
+        width: 70%;
+        margin: auto;
+    }
+}
